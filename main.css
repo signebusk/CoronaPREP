@@ -127,6 +127,7 @@ footer {
     line-height: 200%;
     background-color: rgb(31, 31, 31);
     border-top: 1px solid black;
+    font-family: 'Amiko', sans-serif;
 }
 
 footer li {
