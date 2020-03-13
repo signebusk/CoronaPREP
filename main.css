@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-image: url(virus-1812092_1280.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 100%;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0) , rgb(61, 61, 61));
+    color: white;
+}
+
+#corona {
+    font-family: 'Permanent Marker';
+    font-size: 75px;
+    line-height: 75%;
+}
+
+#prep {
+    font-family: 'Staatliches';
+    font-size: 90px;
+    line-height: 75%;
+}
+
+header p {
+    font-size: 30px;
+    font-family: 'Staatliches';
+    line-height: 25%;
+}
+
+header a {
+    color: white;
+}
+
+nav {
+    background-color: rgb(31, 31, 31);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ nav li a:hover {
+    background-color: #111;
+  }
+
+nav a {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+    .flex-container {
+      display: block;
+    }
+  }
+
+.column {
+    padding: 5px;
+    flex: 1;
+  }
+
+article {
+    margin: 30px;
+    border: 3px solid rgb(31, 31, 31);
+    background-color: whitesmoke;
+    min-width: 400px;
+    padding: 20px;
+}
+
+a article {
+    color: black;
+}
+
+img {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-family: 'Amiko', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    color: lightgray;
+    line-height: 200%;
+    background-color: rgb(31, 31, 31);
+    border-top: 1px solid black;
+}
+
+footer li {
+    float: left;
+    margin-right: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+footer a {
+    color: rgb(100, 100, 100);
+}
+
+.not-found {
+    color: black;
+    text-align: center;
+    display: block;
+    background-color: lightgray;
+}
+
+.not-found p {
+    font-size: 1.5rem;
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Staatliches';
+    font-size: 8rem;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Staatliches';
+    font-size: 2rem;
+
+}
+
+.gif {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+}
